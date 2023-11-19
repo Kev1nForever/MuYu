@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>codefun</title>
+  <link rel="stylesheet" href="../index.css" />
+  <link rel="stylesheet" href="./Sign_up.css" />
+  <style>
+    .section {
+      display: flex;
+      align-items: center;
+    }
+
+    .section input {
+      margin-left: 10px; /* 调整输入区域与图片之间的间距 */
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-col page">
+    <span class="self-center text">Sign Up</span>
+
+    <div class="flex-col justify-start items-start section_3">
+      <div class="flex-row items-center section_4 space-x-10">
+        <img class="image" src="../assets/82d9e3bfc158e1c74716049831e45952.png" />
+        <span class="text_2">  </span>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+      </div>
+    </div>
+
+    <div class="flex-row items-center section_4 space-x-10">
+      <img class="image" src="../assets/47d0b2d4f3e1bd1df8dae7c5ed73a718.png" />
+      <span class="text_2"></span>
+      <input type="password" id="password" name="password" placeholder="Enter your password">
+    </div>
+
+    <button class="flex-col justify-start items-center self-center text-wrapper" onclick="signup()">
+      <a class="text_4">Sign up</a>
+    </button>
+
+    <div class="self-center group">
+      <span class="font_2 text_5">Already have an account?</span>
+      <a href="../Log_in/Log_in.html" class="font_2 text_6">Log In</a>
+    </div>
+  </div>
+  <script type="text/javascript" src="./Sign_up.js"></script>
+</body>
+</html>
+<style>
+  .flex-col.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-row.section {
+    margin-bottom: 20px;
+  }
+
+  .flex-row.items-center.section_2 {
+    margin-bottom: 10px;
+  }
+
+  .flex-col.justify-start.items-start.section_3 {
+    margin-bottom: 30px;
+  }
+
+  .flex-row.items-center.section_4 {
+    margin-bottom: 10px;
+  }
+  .flex-col.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* 居中 */
+  height: 100vh; /* 设置视窗的高度 */
+  margin: 0;
+}
+
+</style>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>codefun</title>
+  <link rel="stylesheet" href="../../index.css" />
+  <link rel="stylesheet" href="./Interest_rate_modification.css" />
+  <style>
+    /* 添加已存在的样式 */
+    .flex-col.page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .flex-row.section {
+      margin-bottom: 20px;
+    }
+
+    .flex-row.items-center.section_2 {
+      margin-bottom: 10px;
+    }
+
+    .flex-col.justify-start.items-start.section_3 {
+      margin-bottom: 30px;
+    }
+
+    .flex-row.items-center.section_4 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-col page">
+    <span class="self-center text">利率计算器</span>
+    <div class="flex-row items-center group">
+      <span class="font_1 text_2 text_3">时长</span>
+      <input type="number" id="duration" name="duration" placeholder="请输入时长">
+    </div>
+    
+    <div class="flex-row group_2">
+      <span class="self-start text_2 text_4">利息</span>
+      <input type="number" id="duration" name="duration" placeholder="请输入利息">
+    </div>
+    <div class="flex-row justify-center items-center group_3">
+      <div class="flex-col justify-start items-center input"><span class="font_1">计算利率</span></div>
+      <div class="flex-col items-start group_4 space-y-28">
+        <span class="font_1"></span>
+        <a href="../计算（利率）/Interest_rate_calculation.html" class="font_1">返回</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
