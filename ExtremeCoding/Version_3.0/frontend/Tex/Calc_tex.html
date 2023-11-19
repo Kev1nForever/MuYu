@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Tex.css">
+	<style>
+    ::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+		.coin-icon {
+				width: 20px;
+				height: 20px;
+				margin-right: 10px; /* 控制图标和标签之间的间距 */
+		}
+	</style>
+</head>
+
+<body>
+	<div id="tax-calculator">
+        <h1 class="calculator-title">税率计算器</h1>
+		<div class="choice_buttons">
+			<button onclick="changeTag(1)" id="current">活期</button>
+			<button onclick="changeTag(2)" id="change">定期</button>
+			<button onclick="changeTag(3)" id="load">贷款</button>
+		</div>
+		<div class="input-fields">
+			<img src="./asserts/Money.png" alt="金币图标" class="coin-icon">
+			<label for="income">金额:</label>
+			<input type="rad_text" id="money"placeholder="元"onkeyup="check_money()">
+			<br>
+			<img src="./asserts/Time.png" alt="金币图标" class="coin-icon">
+			<label for="tax-rate">时长:</label>
+			<input type="rad_text" id="time" placeholder="月"onkeyup="check_time()">
+			<br>
+			<img src="./asserts/Rate.png" alt="金币图标" class="coin-icon">
+			<label for="tax-rate">利息:</label>
+			<input type="rad_text" id="income" readonly >
+		</div>
+    	<button id="calculate-tax" onclick="calculateTax()">计算税率</button>
+		<div class="change_buttons">
+			<button onclick="switchBack()">back</button>
+			<button onclick="switchToModify()">修改利率</button>
+		</div>
+    </div>
+	<style>
+
+		input::-webkit-input-placeholder {
+			/* placeholder颜色 */
+			color: #aab2bd;
+			/* placeholder字体大小 */
+			font-size: 16px;
+		}
+	</style>
+    <script src="Tex.js"></script>
+</body>
+</html>

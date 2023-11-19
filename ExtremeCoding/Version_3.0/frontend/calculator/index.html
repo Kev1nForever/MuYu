@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> <!-- 设置字符编码 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 定义视口宽度和初始缩放比例 -->
+    <link rel="stylesheet" href="./styles.css"> <!-- 引入样式表 -->
+</head>
+<body>
+    <div class="container">
+        <div class="calculator dark"> <!-- 创建计算器容器，使用暗色主题 -->
+            <div class="theme-toggler active"> <!-- 切换主题按钮，初始化为激活状态 -->
+                <i class="toggler-icon"></i> <!-- 切换按钮图标 -->
+            </div>
+            <div class="display-screen"> <!-- 显示屏容器 -->
+                <div id="display"></div> <!-- 显示屏元素 -->
+            </div>
+            <textarea class="history" id="history" readonly></textarea>
+            <div class="buttons"> <!-- 按钮容器 -->
+                <table>
+                    <tr>
+                        <td><button class="btn-operator" id="clear">C</button></td> <!-- 清除按钮 -->
+                        <td><button class="btn-operator" id="/">&divide;</button></td> <!-- 除法按钮 -->
+                        <td><button class="btn-operator" id="*">&times;</button></td> <!-- 乘法按钮 -->
+                        <td><button class="btn-operator" id="sin">sin</button></td> <!-- 正弦按钮 -->
+                        <td><button class="btn-operator" id="backspace">⌫</button></td> <!-- 退格按钮 -->
+                    </tr>
+                    <tr>
+                        <td><button class="btn-number" id="7">7</button></td> <!-- 数字按钮 7 -->
+                        <td><button class="btn-number" id="8">8</button></td> <!-- 数字按钮 8 -->
+                        <td><button class="btn-number" id="9">9</button></td> <!-- 数字按钮 9 -->
+                        <td><button class="btn-operator" id="cos">cos</button></td> <!-- 余弦按钮 -->
+                        <td><button class="btn-operator" id="-">-</button></td> <!-- 减法按钮 -->
+                    </tr>
+                    <tr>
+                        <td><button class="btn-number" id="4">4</button></td> <!-- 数字按钮 4 -->
+                        <td><button class="btn-number" id="5">5</button></td> <!-- 数字按钮 5 -->
+                        <td><button class="btn-number" id="6">6</button></td> <!-- 数字按钮 6 -->
+                        <td><button class="btn-operator" id="tan">tan</button></td> <!-- 正切按钮 -->
+                        <td><button class="btn-operator" id="+">+</button></td> <!-- 加法按钮 -->
+                    </tr>
+                    <tr>
+                        <td><button class="btn-number" id="1">1</button></td> <!-- 数字按钮 1 -->
+                        <td><button class="btn-number" id="2">2</button></td> <!-- 数字按钮 2 -->
+                        <td><button class="btn-number" id="3">3</button></td> <!-- 数字按钮 3 -->
+                        <td><button class="btn-operator" id="^">^</button></td> <!-- 指数按钮 -->
+                        <td rowspan="2"><button class="btn-equal" id="equal">=</button></td> <!-- 等于按钮 -->
+                    </tr>
+                    <tr>
+                        <td><button class="btn-operator" id="(">(</button></td> <!-- 左括号按钮 -->
+                        <td><button class="btn-number" id="0">0</button></td> <!-- 数字按钮 0 -->
+                        <td><button class="btn-operator" id=")">)</button></td> <!-- 右括号按钮 -->
+                        <td><button class="btn-operator" id="exp">exp</button></td> <!-- 指数按钮 -->
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class="btn-operator" id="History">Ans</button></td> <!-- 历史记录按钮 -->
+                        <td><button class="btn-operator" id="%">%</button></td> <!-- 百分比按钮 -->
+                        <td><button class="btn-operator" id="goto">*</button></td> <!-- 百分比按钮 -->
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./calculator.js"></script>
+</body>
+</html>

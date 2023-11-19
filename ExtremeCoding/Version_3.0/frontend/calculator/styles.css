@@ -1,0 +1,179 @@
+/* 通用样式重置 */
+* {
+  margin: 0; /* 重置外边距 */
+  padding: 0; /* 重置内边距 */
+  box-sizing: border-box; /* 设置盒模型为边框盒 */
+  outline: 0; /* 去除外边框 */
+  transition: all 0.5s ease; /* 添加过渡效果，用于所有属性变化 */
+}
+
+/* 设置全局字体样式 */
+body {
+  font-family: sans-serif; /* 设置全局字体样式为无衬线字体 */
+}
+
+/* 设置全局链接样式 */
+a {
+  text-decoration: none; /* 去除链接下划线 */
+  color: #fff; /* 设置链接颜色为白色 */
+}
+
+
+
+/* 设置全局背景图像，创建渐变背景 */
+body {
+  background-image: linear-gradient(to bottom, rgb(234, 238, 236), rgb(246, 121, 82));
+  /* 创建渐变背景色，从紫色到粉红色 */
+}
+
+
+
+/* 定义包含计算器的容器，居中显示 */
+.container {
+  height: 100vh; /* 高度占据整个视口高度 */
+  width: 100vw; /* 宽度占据整个视口宽度 */
+  display: grid; /* 使用网格布局 */
+  place-items: center; /* 将内容垂直水平居中显示 */
+}
+
+/* 计算器样式 */
+.calculator {
+  position: relative; /* 设置相对定位，用于定位内部元素 */
+  height: auto; /* 自适应高度 */
+  width: auto; /* 自适应宽度 */
+  padding: 20px; /* 内边距 */
+  border-radius: 10px; /* 设置边框圆角 */
+  box-shadow: 0 0 30px #000000; /* 添加阴影效果 */
+  height: 88%;
+}
+
+/* 主题切换按钮样式 */
+.theme-toggler {
+  position: absolute; /* 设置绝对定位，相对于父容器定位 */
+  top: 30px; /* 距离顶部30px */
+  right: 30px; /* 距离右侧30px */
+  color: #fff; /* 文字颜色为白色 */
+  cursor: pointer; /* 鼠标指针样式为手型 */
+  z-index: 1; /* 设置层级为1，放在上面 */
+}
+
+/* 主题切换按钮激活状态样式 */
+.theme-toggler.active {
+  color: #333; /* 文字颜色为深灰色 */
+}
+
+/* 主题切换按钮伪元素样式 */
+.theme-toggler.active::before {
+  background-color: #fff; /* 伪元素背景颜色为白色 */
+}
+
+.theme-toggler::before {
+  content: ''; /* 伪元素内容为空 */
+  height: 30px; /* 伪元素高度为30px */
+  width: 30px; /* 伪元素宽度为30px */
+  position: absolute; /* 设置伪元素绝对定位 */
+  top: 50%; /* 距离顶部50% */
+  transform: translate(-50%, -50%); /* 平移至水平垂直居中 */
+  border-radius: 50%; /* 设置伪元素圆角 */
+  background-color: #333; /* 伪元素背景颜色为深灰色 */
+  z-index: -1; /* 设置层级为-1，位于按钮后面 */
+}
+
+/* 显示屏样式 */
+#display {
+  font-size: x-large;
+  font-style:inherit;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0 50px; /* 外边距，水平方向为0，垂直方向为10px */
+  height: 100px; /* 高度为150px */
+  width: auto; /* 自适应宽度 */
+  max-width: 270px; /* 最大宽度为270px */
+  display: flex; /* 使用弹性布局 */
+  align-items: flex-end; /* 垂直底部对齐 */
+  justify-content: flex-end; /* 水平右对齐 */
+  font-size: 40px; /* 文字字号为30px */
+  
+  overflow-x: scroll; /* 如果内容溢出则显示水平滚动条 */
+}
+
+/* 滚动条样式 */
+#display::-webkit-scrollbar {
+  display: block; /* 显示滚动条 */
+  height: 3px; /* 滚动条高度为3px */
+}
+
+/* 按钮样式 */
+button {
+  height: 60px; /* 按钮高度为60px */
+  width: 60px; /* 按钮宽度为60px */
+  border: 0; /* 去除边框 */
+  border-radius: 30px; /* 设置按钮圆角为30px */
+  margin: 12px; /* 外边距为5px */
+  font-size: 20px; /* 文字字号为20px */
+  cursor: pointer; /* 鼠标指针样式为手型 */
+  transition: all 200ms ease; /* 添加所有属性变化过渡效果，持续200毫秒 */
+}
+
+/* 鼠标悬停按钮放大效果 */
+button:hover {
+  transform: scale(1.15); /* 鼠标悬停时放大1.1倍 */
+}
+
+/* 等号按钮样式 */
+button#equal {
+  height: 130px; /* 等号按钮高度为130px */
+}
+
+button#History {
+  width: 150px;
+}
+
+/* 主题样式 */
+.calculator.dark {
+  background-color: rgba(250, 238, 236, 20); /* 背景颜色为深蓝色 */
+}
+
+.calculator.dark #display {
+  color: #0f0e0e; /* 显示屏文字颜色为白色 */
+}
+
+.calculator.dark button#clear {
+  background-color: rgb(236, 158, 139); /* 清除按钮背景颜色为深红色 */
+  color: #ffffff; /* 清除按钮文字颜色为深红色 */
+}
+
+.calculator.dark button.btn-number {
+  background-color: rgb(224, 185, 164); /* 数字按钮背景颜色为深蓝色 */
+  color: #000000; /* 数字按钮文字颜色为白色 */
+}
+
+.calculator.dark button.btn-operator {
+  background-color: rgb(255, 182, 146); /* 运算符按钮背景颜色为深紫色 */
+  color: #000000; /* 运算符按钮文字颜色为紫色 */
+}
+
+.calculator.dark button.btn-equal {
+  background-color: #d66604; /* 等号按钮背景颜色为深绿色 */
+  color: #fff; /* 等号按钮文字颜色为白色 */
+}
+
+.calculator.dark button#goto {
+  background-color: rgb(236, 139, 144); /* 清除按钮背景颜色为深红色 */
+  color: #ffffff; /* 清除按钮文字颜色为深红色 */
+}
+
+
+
+/* 历史显示框样式 */
+#history {
+  font-size: x-large;
+  font-style:inherit;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 92%;
+  background-color: rgb(242, 188, 174); /* 历史显示框背景颜色为紫色 */
+  border: 2px solid #dac5c5; /* 设置2px的边框，颜色为灰色 */
+  margin: 10px; /* 外边距为20px */
+  padding: 25px; /* 内边距为30px */
+  border-radius: 30px; /* 设置按钮圆角为30px */
+  z-index: 2; /* 增加z-index属性，设置层级为2 */
+}
