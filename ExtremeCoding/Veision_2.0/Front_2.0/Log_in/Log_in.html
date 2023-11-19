@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>codefun</title>
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="./Log_in.css" />
+  </head>
+  <body>
+    <div class="flex-col page">
+      <span class="self-center text">Log in</span>
+      <div class="flex-col group">
+        <div class="flex-col space-y-16">
+          <div class="flex-col justify-start items-start section">
+            <div class="flex-row items-center section_2 space-x-10">
+              <img class="image" src="../assets/82d9e3bfc158e1c74716049831e45952.png" />
+              <span class="font_1 text_2"></span>
+              <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+            </div>
+          </div>
+          <div class="flex-row items-center section_3 space-x-10">
+            <img class="image" src="../assets/f9a7ee78d62a9bd439862dda5bb5c922.png" />
+            <span class="font_1 text_2"></span>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+          </div>
+        </div>
+
+        <a href="../Sign_up/Sign_up.html" class="self-end font_1 text_3">Forgot password?</a>
+        <button class="flex-col justify-start items-center self-center text-wrapper" onclick="login()">
+          <a class="text_4">Log in<audio>
+        </button>
+      </div>
+      <div class="self-center group_2">
+        <span class="font_2 text_5">Don’t have an account?</span>
+        <a href="../Sign_up/Sign_up.html" class="font_2 text_6">Sign Up</span>
+      </div>
+    </div>
+    <script type="text/javascript" src="./Log_in.js"></script>
+  </body>
+<html>
+<style>
+  .flex-col.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-row.section {
+    margin-bottom: 20px;
+  }
+
+  .flex-row.items-center.section_2 {
+    margin-bottom: 10px;
+  }
+
+  .flex-col.justify-start.items-start.section_3 {
+    margin-bottom: 30px;
+  }
+
+  .flex-row.items-center.section_4 {
+    margin-bottom: 10px;
+  }
+</style>

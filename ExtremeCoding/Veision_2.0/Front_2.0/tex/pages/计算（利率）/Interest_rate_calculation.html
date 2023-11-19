@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>codefun</title>
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="./Interest_rate_calculation.css" />
+    <script type="text/javascript" src="./Interest_rate_calculation.js"></script>
+  </head>
+  <body>
+    <div class="flex-col page">
+      <span class="self-center text">利率计算器</span>
+      <div class="flex-row justify-between group">
+        <div class="flex-col justify-start items-center text-wrapper"><button class="font_1">活期</button></div>
+        <div class="flex-col justify-start items-center text-wrapper"><button class="font_1">定期</button></div>
+        <div class="flex-col justify-start items-center text-wrapper view"><button class="font_1">贷款</button></div>
+      </div>
+      <div class="flex-row items-center group_2">
+        <span class="font_2 text_2">金额</span>
+        <input type="number" id="amount" name="amount" placeholder="请输入金额">
+      </div>
+      
+      <div class="flex-row items-center group_3">
+        <span class="font_1 text_2 text_3">时长</span>
+        <input type="number" id="duration" name="duration" placeholder="请输入时长">
+      </div>
+      
+      <div class="flex-row group_4">
+        <span class="self-center font_2 text_2">利息</span>
+        <div class="flex-col justify-start flex-auto section_3">
+          <span id="interestDisplay">0</span>
+        </div>
+      </div>
+      <div class="flex-row justify-center items-center group_5">
+        <div class="flex-col justify-start items-center input">
+          <button class="font_1">计算利率</button>
+        </div>
+        <div class="flex-col items-start group_6 space-y-28">
+          <a href="../修改（利率）/Interest_rate_modification.html" class="font_1">修改利率</a>
+          <a href="../../../calculator/index.html" class="font_1">返回</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
