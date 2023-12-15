@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73e384d7-c5e7-4cc4-aa99-292c253090dc" name="Default Changelist" comment="update" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Public Environment File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\javaDe\apache-maven-3.5.4\repo" />
+        <option name="mavenHome" value="F:/maven/apache-maven-3.9.5" />
+        <option name="userSettingsFile" value="D:\javaDe\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="290NxIpBz4TzgdLqfeQTEO376jQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Ruangong/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;54dc86c09d39a042a847d7daa3f649d3&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Develop\CodePack\Exhibition\java\ruoyi-applet\src\main\resources\mapper\exhibition" />
+      <recent name="C:\Develop\CodePack\Exhibition\java\ruoyi-applet\src\main\java\com\ruoyi\applet\exhibition\service" />
+      <recent name="C:\Develop\CodePack\Exhibition\java\ruoyi-applet\src\main\java\com\ruoyi\applet\exhibition\service\impl" />
+      <recent name="C:\Develop\CodePack\Exhibition\java\ruoyi-applet\src\main\java\com\ruoyi\applet\exhibition\mapper" />
+      <recent name="C:\Develop\CodePack\Exhibition\java\ruoyi-applet\src\main\java\com\ruoyi\applet\exhibition\domain" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RuoYiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ruoyi-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.RuoYiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73e384d7-c5e7-4cc4-aa99-292c253090dc" name="Default Changelist" comment="" />
+      <created>1652246287971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652246287971</updated>
+      <workItem from="1652246289676" duration="7222000" />
+      <workItem from="1652321886686" duration="21000" />
+      <workItem from="1652844539393" duration="12859000" />
+      <workItem from="1652925909369" duration="30000" />
+      <workItem from="1652962378567" duration="3853000" />
+      <workItem from="1653021243678" duration="975000" />
+      <workItem from="1653028962175" duration="8585000" />
+      <workItem from="1653098998213" duration="8058000" />
+      <workItem from="1653395489918" duration="412000" />
+      <workItem from="1653396015457" duration="24000" />
+      <workItem from="1653533519847" duration="9000" />
+      <workItem from="1697784857806" duration="16000" />
+      <workItem from="1697791572264" duration="30000" />
+      <workItem from="1698383699172" duration="54000" />
+      <workItem from="1701356209006" duration="6252000" />
+      <workItem from="1701398293837" duration="17589000" />
+      <workItem from="1702390681149" duration="300000" />
+      <workItem from="1702463451930" duration="1085000" />
+      <workItem from="1702465603199" duration="708000" />
+      <workItem from="1702473112851" duration="140000" />
+      <workItem from="1702524945155" duration="605000" />
+      <workItem from="1702636802971" duration="1007000" />
+      <workItem from="1702639141818" duration="1574000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1653043898452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653043898452</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1653125111559</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653125111559</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
